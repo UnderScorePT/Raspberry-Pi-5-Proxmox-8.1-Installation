@@ -3,7 +3,6 @@
 # Preparing your Raspberry Pi for Proxmox
 1. Our first task before installing Proxmox onto the Raspberry Pi is to update the package list cache and upgrade any out-of-date packages.
 You can perform both tasks by using the following two commands within the terminal.
-
 `sudo apt update
 sudo apt upgrade`
 3. Your next step is to ensure that curl is installed on your Pi. We will be using curl to grab the GPG key for the Proxmox ports repository that we will be relying on.
