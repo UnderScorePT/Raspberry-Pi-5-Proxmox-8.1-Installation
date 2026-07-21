@@ -13,7 +13,7 @@ You can install this package by using the following command within the terminal.
 `sudo apt install curl`
 
 5. Before proceeding with this tutorial, you must set up your Raspberry Pi to use a static IP address.
-The best way to do this is using DHCP reservation in your router. However, we have a guide that shows you how to do this through your Raspberry Pi if you don’t have access to your router.
+The best way to do this is using DHCP reservation in your router.
 
 # Modifying your Hosts File for Proxmox
 4. After setting up a static IP address, we must now edit the hosts file. Proxmox expects your hostname to point to the IP address of your Raspberry Pi.
